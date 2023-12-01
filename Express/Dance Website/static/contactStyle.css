@@ -1,0 +1,47 @@
+.container {
+    /* background-color: blue; */
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 7px 7px gray;
+    height: 400px;
+    width: 400px;
+    background-color:aliceblue ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    margin: 10px;
+    padding: 10px;
+    width: 70%;
+    outline: none;
+    font-size: 1rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.btn {
+    width: fit-content;
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(48, 159, 48);
+    color: white;
+}

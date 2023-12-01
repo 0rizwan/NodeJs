@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#navbar {
+    min-height: 40px;
+    background-color: #99c45a;
+    padding: 1rem;
+}
+
+#navbar ul {
+    display: flex;
+    /* justify-content: center; */
+}
+
+#navbar li {
+    list-style: none;
+    padding: 2px 15px;
+    margin: 5px 10px;
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar li a:hover {
+    color: black;
+}
+
+#introSection {
+    height: 400px;
+    background-image: url('../static/dance.webp');
+    background-size: 100vw 30vw;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+#big, #small {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+#big {
+    margin-top: 18px;
+    font-size: 1.5rem;
+}
+#small {
+    font-size: 1.2rem;
+}
+
+.heading {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 10px;
+    font-family: monospace;
+}
+
+#missionSection {
+    height: 270px;
+    /* background-color: rgb(29 19 123); */
+}
+
+.cardContainer {
+    /* background-color: blue; */
+    height: 230px;
+    margin: auto;
+    width: 1100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card h4 {
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card {
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 200px;
+    width: 250px;
+    background-color: aliceblue;
+}
+
+.card-box {
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 153px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+.card-box img {
+    height: 100px;
+}
+
+.content {
+    padding: 5px;
+}
+
+.content p{
+    font-size: .9rem;
+}
+
+#sponsorSection {
+    height: 200px;
+    /* background-color: rgb(229 199 123); */
+}
+
+.sponsorContainer {
+    /* background-color: cornflowerblue; */
+    height: 150px;
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sponsorContainer img {
+    height: 150px;
+    mix-blend-mode: color-burn;
+}
+
+footer P {
+    /* text-align: center; */
+    color: white;
+    padding: 1rem;
+}
+
+footer {
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

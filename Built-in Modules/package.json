@@ -1,0 +1,18 @@
+{
+  "name": "built-in-modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Modules.js",
+  "scripts": {
+    "start": "nodemon Modules.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

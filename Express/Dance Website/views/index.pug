@@ -1,0 +1,61 @@
+doctype html 
+html 
+    head
+        title= "Dance Website"
+        style
+            include ../static/style.css
+    body
+        nav#navbar
+            ul
+                li #[a(href="/") Home]
+                li #[a(href="/") About]
+                li #[a(href="/") Services]
+                li #[a(href="/") Contact Us]
+                
+        section#introSection
+            div#big Welcome to our Dance Academy
+            div#small Dance Eat Sleep Repeat
+
+        section#missionSection
+            h1.heading Our Mission
+            div.cardContainer
+                div.card
+                    h4 International Dance Experts
+                    div.card-box
+                        div.img
+                            img(src="../static/1.jpeg", alt="image")
+                        div.content 
+                            p We have experts from different countries.
+                        
+                div.card
+                    h4 Hip Hop Dance
+                    div.card-box
+                        div.img
+                            img(src="../static/2.jpeg", alt="image")
+                        div.content 
+                            p If you are intrested in Hip Hop Dance then we are there for you
+
+                div.card
+                    h4 Online Dance Learning
+                    div.card-box
+                        div.img
+                            img(src="../static/3.jpeg", alt="image")
+                        div.content 
+                            p If you wanna learn dance from home then you are at right place
+        
+        section#sponsorSection
+            h1.heading Our Sponsor
+            div.sponsorContainer 
+                div.logo
+                    img(src="../static/logo1.jpeg", alt="sponsor image")
+                div.logo
+                    img(src="../static/logo2.jpeg", alt="sponsor image")
+                div.logo
+                    img(src="../static/logo3.jpeg", alt="sponsor image")
+
+
+
+        footer
+            p Copyright DanceAcademy.com | All Rights Reserved
+        script
+            include ../static/index.js
